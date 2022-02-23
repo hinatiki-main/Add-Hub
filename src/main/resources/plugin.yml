@@ -1,0 +1,10 @@
+name: Add-Hub
+version: '${project.version}'
+main: hinatikimain.addhub.AddHub
+api-version: 1.13
+
+commands:
+  hub:
+    description: hub鯖に移動できる
+    permission: add.hub.command.hub
+    permission-message: 実行に必要な権限がありません！
